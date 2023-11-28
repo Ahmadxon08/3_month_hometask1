@@ -19,3 +19,7 @@ function toggleBacktop() {
     backtop.style.bottom = "-50px";
   }
 }
+const loading = document.getElementById("loading");
+window.addEventListener("load", () => {
+  loading.classList.add("loading-none");
+});
